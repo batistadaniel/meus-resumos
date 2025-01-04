@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    width: 100%;
+    height: 100vh;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 16px;
+
+    & .topo {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+    }
+}
+
+header img {
+    width: 50px;
+}
+
+header h1 {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.controle {
+    margin: 10px;
+}
+
+.controle span {
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    gap: 22px;
+    margin: 20px;
+}
+
+.titulo{
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.titulo-materia {
+    border-radius: 5px 5px 0 0;
+}
+
+.conteudo-materia {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.conteudo {
+    display: none;
+    margin-left: 16px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 5px;
+    /* margin: 10px 0 10px 14px; */
+}
+
+/* .subconteudo p {
+    margin: 0;
+} */
+
+.expandido {
+    display: grid;
+    gap: 10px;
+}
